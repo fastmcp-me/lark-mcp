@@ -1,0 +1,20 @@
+{
+  "name": "lark-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lark MCP Server",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/server.js",
+    "dev": "tsc && node build/server.js"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.43.0",
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
